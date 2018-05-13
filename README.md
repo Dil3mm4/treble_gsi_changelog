@@ -73,7 +73,7 @@
 
 -Intrusive LED
 
--This is a flashable ZIP via TWRP!
+- From this build on, it's flashable via TWRP! **(ONLY RROS)**
 
 ### CARNERA
 -Nightmode is now working
