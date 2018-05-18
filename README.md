@@ -88,8 +88,6 @@
 
 - All screen rotations
 
-- Huawei camera built-in
-
 - Multiuser
 
 - Security Patch Date is now fixed
@@ -111,5 +109,13 @@
 
 - Minor quirks fixing
 
-### CARNERA_R3 
+### CARNERA_r3 
 - Performance and stability fixes
+
+### CARNERA_r4
+-Fingerprint navigation is now properly implemented with swipes up/down to collapse/expand statusbar
+(if it's still not working launch this adb command, adb shell settings put secure system_navigation_keys_enabled 1)
+
+-Upstreamed to r29 (AOSP)
+
+-May security patches
