@@ -119,3 +119,27 @@
 -Upstreamed to r29 (AOSP)
 
 -May security patches
+
+### DELAHOYA
+- ALL THE RELEASE FROM DELAHOYA ON WILL BE FLASHABLE TWRP ZIPS NO MATTER WHAT, IT WILL BE FLASHABLE VIA TWRP
+
+- NFC has been fixed
+
+- No more need to push adb commands for the fingerprint navigation, it is inherited in settings disabling navbar on screen 
+ (LOS BASED ROMs)
+
+- Improved overall stability
+
+- Built-in styles are now fixed (LOS BASED ROMs)
+
+- GApps built-in (list below)
+Chrome 
+CalculatorGoogle
+PrebuiltDeskClockGoogle 
+CalendarGooglePrebuilt 
+LatinImeGoogle 
+Facelock 
+PixelLauncher 
+PixelLauncherIcons
+Playstore
+Play Services
