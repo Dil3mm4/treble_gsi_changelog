@@ -133,13 +133,23 @@
 - Built-in styles are now fixed (LOS BASED ROMs)
 
 - GApps built-in (list below)
+
 Chrome 
+
 CalculatorGoogle
+
 PrebuiltDeskClockGoogle 
+
 CalendarGooglePrebuilt 
+
 LatinImeGoogle 
+
 Facelock 
+
 PixelLauncher 
+
 PixelLauncherIcons
+
 Playstore
+
 Play Services
