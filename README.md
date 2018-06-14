@@ -2,7 +2,7 @@
 ### ESPINOSA 
 - FP gestures now supports only swipe up/down (to collapse/expand statusbar)
 
-- May security patches
+-June security patches (ROM side, if your vendor or kernel isn't patched to june patches, it will still show MAY)
 
 - Minor improvements
 
