@@ -1,79 +1,47 @@
 # Global changelog
+### ESPINOSA 
+- FP gestures now supports only swipe up/down (to collapse/expand statusbar)
 
-### 20180407
-- initial build lot of quirks expected please do report if something strange happens
+- May security patches
 
-- wrong signal behaviour should be fixed
+- Minor improvements
 
-### 12042018 
-- VoLTE support added (may or may not work, that's definetely low on my priority list, don't even mind to report errors about it)
+### DELAHOYA
+- ALL THE RELEASE FROM DELAHOYA ON WILL BE FLASHABLE TWRP ZIPS NO MATTER WHAT, IT WILL BE FLASHABLE VIA TWRP
 
-- Adaptive brightness is now working
+- NFC has been fixed
 
-- Sim hotswap enabled
+- No more need to push adb commands for the fingerprint navigation, it is inherited in settings disabling navbar on screen 
+ (LOS BASED ROMs)
 
-- BLE is now supported
+- Improved overall stability
 
-### 12042018 round 2
-- Fixes for some in the hood Huawei quirks
+- Built-in styles are now fixed (LOS BASED ROMs)
 
-- Ambient Display is now supported
+- OTA updates (CrDroid) 
 
-- Gapps are now included 
 
-- Facedetection should be there as well (untested)
+### CARNERA_r4
+-Fingerprint navigation is now properly implemented with swipes up/down to collapse/expand statusbar
+(if it's still not working launch this adb command, adb shell settings put secure system_navigation_keys_enabled 1)
 
-- Upstreamed to r20
+-Upstreamed to r29 (AOSP)
 
-- Some more fixes for LTE signal (let's hope that's the final one)
+-May security patches
 
-- Built- in Google Assistant
+### CARNERA_r3 
+- Performance and stability fixes
 
-### 13042018
-- EMUI8 power profile enabled
+### CARNERA_r2 
+- V4A should now work
 
-- Offline charging fixed 
+- Minor quirks fixing
 
-- There should be no more vendor related messages on boot
+### CARNERA_r1
+- Fixing the rare issue about /system partition not mounting due to other devs 
+ incompetence to keep a standard System Partition size over all roms
 
-- Compatibility matrix from EMUI8 added 
-
-- Fingerprint Gestures should be now supported
-
-### 13042018 Round 2
-- Better headphones recognizing
-
-- Some Bluetooth drops should be gone
-
-### ALI 
-- Finally we should get rid of the incorrect signal displaying
-
-- Enhancing EMUI 8 power profile
-
-- Revert fingerprint navigation (it's not working and that's definitely low in my priority list)
-
-- Enhancing compatibility matrix 
-
-- inherit some Huawei stuff
-
-- maybe RRos bootanimation
-
-- solved a bug which was making RRos wallpaper to not work on the latest builds
-
-- changing builds name to identify them easily (they will have alphabetic order) the first one is entitled to Muhammed Ali
-
-### BENVENUTI
-- Fixed led issues while in charge (booted OS)
-
-- There should be less Bluetooth quirks. (I don't have a lot device to test this out, so please do report)
-
-- Better LTE overlay
-
-- Adaptive Backlight support
-
-- Intrusive LED
-
--  From this build on, it's flashable via TWRP! **(ONLY RROS)**
+- Fixed camera shutter latency
 
 ### CARNERA
 - Nightmode is now working
@@ -98,40 +66,86 @@
 
 - The installer script is now even more intelligent
 
-### CARNERA_r1
-- Fixing the rare issue about /system partition not mounting due to other devs 
- incompetence to keep a standard System Partition size over all roms
+### BENVENUTI
+- Fixed led issues while in charge (booted OS)
 
-- Fixed camera shutter latency
+- There should be less Bluetooth quirks. (I don't have a lot device to test this out, so please do report)
 
-### CARNERA_r2 
-- V4A should now work
+- Better LTE overlay
 
-- Minor quirks fixing
+- Adaptive Backlight support
 
-### CARNERA_r3 
-- Performance and stability fixes
+- Intrusive LED
 
-### CARNERA_r4
--Fingerprint navigation is now properly implemented with swipes up/down to collapse/expand statusbar
-(if it's still not working launch this adb command, adb shell settings put secure system_navigation_keys_enabled 1)
+-  From this build on, it's flashable via TWRP! **(ONLY RROS)**
 
--Upstreamed to r29 (AOSP)
 
--May security patches
+### ALI 
+- Finally we should get rid of the incorrect signal displaying
 
-### DELAHOYA
-- ALL THE RELEASE FROM DELAHOYA ON WILL BE FLASHABLE TWRP ZIPS NO MATTER WHAT, IT WILL BE FLASHABLE VIA TWRP
+- Enhancing EMUI 8 power profile
 
-- NFC has been fixed
+- Revert fingerprint navigation (it's not working and that's definitely low in my priority list)
 
-- No more need to push adb commands for the fingerprint navigation, it is inherited in settings disabling navbar on screen 
- (LOS BASED ROMs)
+- Enhancing compatibility matrix 
 
-- Improved overall stability
+- inherit some Huawei stuff
 
-- Built-in styles are now fixed (LOS BASED ROMs)
+- maybe RRos bootanimation
 
-- OTA updates (CrDroid) 
+- solved a bug which was making RRos wallpaper to not work on the latest builds
+
+- changing builds name to identify them easily (they will have alphabetic order) the first one is entitled to Muhammed Ali
+
+
+
+### 13042018 Round 2
+- Better headphones recognizing
+
+- Some Bluetooth drops should be gone
+
+### 13042018
+- EMUI8 power profile enabled
+
+- Offline charging fixed 
+
+- There should be no more vendor related messages on boot
+
+- Compatibility matrix from EMUI8 added 
+
+- Fingerprint Gestures should be now supported
+
+### 12042018 round 2
+- Fixes for some in the hood Huawei quirks
+
+- Ambient Display is now supported
+
+- Gapps are now included 
+
+- Facedetection should be there as well (untested)
+
+- Upstreamed to r20
+
+- Some more fixes for LTE signal (let's hope that's the final one)
+
+- Built- in Google Assistant
+
+### 12042018 
+- VoLTE support added (may or may not work, that's definetely low on my priority list, don't even mind to report errors about it)
+
+- Adaptive brightness is now working
+
+- Sim hotswap enabled
+
+- BLE is now supported
+
+### 20180407
+- initial build lot of quirks expected please do report if something strange happens
+
+- wrong signal behaviour should be fixed
+
+
+
+
 
 
